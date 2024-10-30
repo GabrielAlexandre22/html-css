@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
@@ -30,8 +31,10 @@ header {
 }
 
 header > h1 {
+    font-variant: small-caps;
     font-family: var(--Fonte-Destaque);
     margin: 0px;
+    font-size: 10vw;
 }
 
 header > p {
@@ -39,7 +42,11 @@ header > p {
 }
 
 section{
-    padding: 60.2px 0px 60.2px 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section#img01{
@@ -57,12 +64,13 @@ section#img02{
 section > p {
     font-family: var(--Fonte-Cordel);
     margin: 0px;
-    padding-bottom: 41.7px;
+    padding-bottom: 2em;
 }
 
 .imagem > p {
     text-shadow: black 1px 1px 0px;
 
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 5px;
 }
