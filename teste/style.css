@@ -72,13 +72,15 @@ body{
 }
 
 p{
+    color: #ffffff;
     text-align: justify;
-    padding: 5px;
+    padding: 13px 8px 5px 8px;
     text-indent: 5%;
     line-height: 1.4;
 }
 
 p#inicio{
+    color: black;
     text-align: center;
     font-size: 1.5em;
 }

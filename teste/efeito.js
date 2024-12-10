@@ -42,14 +42,17 @@ envelope.onclick = function abrir(){
 carta.onclick = function(event){
     event.stopPropagation()
 
-    /* carta.style.transform = "scale(2)" */
+    with(carta.style){
+        width = "90vw" 
+        maxHeight = "100vh"
 
+        position = "fixed"
+        overflow = "scroll"
 
-    carta.style.width = "90vw"
-    carta.style.height = "100vh"
+        padding = "20px"
+    }
 
-    carta.style.position = "fixed"
-    carta.style.overflow = "scroll"
-    
-    carta.style.padding = "20px"
+    document.querySelectorAll("p").forEach(p => {
+        p.style.color = "black"
+    })
 }
