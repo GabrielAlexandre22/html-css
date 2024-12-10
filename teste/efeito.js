@@ -40,6 +40,8 @@ envelope.onclick = function abrir(){
     }, 2000) */
 
 carta.onclick = function(event){
+    var envelope = document.querySelector(".container");
+
     event.stopPropagation()
 
     with(carta.style){
@@ -55,4 +57,6 @@ carta.onclick = function(event){
     document.querySelectorAll("p").forEach(p => {
         p.style.color = "black"
     })
+
+    envelope.style.animation = "nada"
 }

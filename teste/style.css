@@ -137,7 +137,7 @@ p#inicio{
     z-index: 5;
 }
 
-/* @keyframes flutuar {
+@keyframes flutuar {
     0%{
         transform: translateY(-2%);
     }
@@ -145,4 +145,4 @@ p#inicio{
     100%{
         transform: translateY(2%)
     }
-} */
+}
